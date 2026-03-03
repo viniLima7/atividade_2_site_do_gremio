@@ -1,115 +1,58 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
-    margin: 0;
-    font-family: system-ui, Arial, sans-serif;
-    background: #0b0f1a;
-    color: #e5e7eb;
-    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(111, 163, 246);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
-.container {
-    width: 980px;
-    margin: 0 auto;
-    padding: 16px;
+#icon {
+    width: 62px;
 }
 
-.header,
-.section,
-.footer {
-    background: rgba(0, 0, 0, 0.55);
-    border: 1px solid rgba(229, 231, 235, 0.25);
-    border-radius: 12px;
-    padding: 14px;
-    margin-bottom: 12px;
+#links {
+    padding-right: 10px;
 }
 
-.title {
-    margin: 0 0 6px;
-    color: #4aa3ff;
-}
-
-.subtitle {
-    margin: 0 0 10px;
-    color: #cbd5e1;
-}
-
-.nav {
-    margin-top: 10px;
-}
-
-.nav-link {
-    display: inline-block;
-    margin-right: 8px;
-    padding: 8px 10px;
-    background: #0b3d91;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 10px;
-}
-
-.nav-link:hover {
-    background: #1158cc;
-}
-
-.section-title {
-    margin: 0 0 10px;
-    color: #ffffff;
-}
-
-.text {
-    margin: 0 0 12px;
-    color: #cbd5e1;
-}
-
-.cards {
+#navbar {
     display: flex;
-    gap: 12px;
-    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(7, 49, 98);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.card {
-    width: 310px;
-    background: #0b3d91;
-    border: 2px solid rgba(255, 255, 255, 0.35);
-    border-radius: 12px;
-    padding: 14px;
+.noticias {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(94, 138, 209);
+    padding: 6px;
+    margin: 40px;
+    border-radius: 40px;
+
 }
 
-.card-title {
-    margin: 0 0 6px;
-    color: #ffffff;
+.noticia {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(72, 155, 243);
+    border: 4px solid rgb(255, 255, 255);
 }
 
-.card-text {
-    margin: 0;
-    color: #eaf2ff;
+.img_noticia {
+    width: 300px;
+    height: 200px;
 }
 
-.list {
-    margin: 0;
-    padding-left: 18px;
-}
-
-.list li {
-    margin: 6px 0;
-    color: #cbd5e1;
-}
-
-.footer-text {
-    margin: 0;
-    color: #cbd5e1;
-}
-
-.link {
-    color: #4aa3ff;
-    text-decoration: none;
-}
-
-.link:hover {
-    text-decoration: underline;
+footer {
+    background-color: rgb(7, 49, 98);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .fixed-help{

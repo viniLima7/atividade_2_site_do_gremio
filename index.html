@@ -1,78 +1,46 @@
-<!doctype html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Site do Grêmio</title>
-    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body id="topo">
-
-    <a class="fixed-help" href="#posicao">?</a>
-
     <div class="container">
         <header class="header" id="cabecalho">
             <h1 class="title">Grêmio Estudantil</h1>
             <p class="subtitle">Informações, avisos e ações do grêmio.</p>
 
-            <nav class="nav" id="menu">
-                <a class="nav-link" href="#cards">Cards</a>
-                <a class="nav-link" href="#posicao">Position</a>
-                <a class="nav-link" href="#rodape">Rodapé</a>
-            </nav>
-        </header>
+            <ul id="links">
+                <li>Arquivos</li>
+                <li>Clube</li>
+                <li>Sair</li>
+            </ul>
+        </div>
 
-        <main class="main" id="conteudo">
-            <section class="section" id="cards">
-                <h2 class="section-title">Destaques</h2>
+    </header>
+    <main>
 
-                <div class="cards">
+        <section class="noticias">
 
-                    <article class="card" id="card-1">
-                        <h3 class="card-title">Reunião do Grêmio</h3>
-                        <p class="card-text">
-                            Pauta: calendário de ações, comunicação com turmas e proposta de evento.
-                        </p>
-                    </article>
+            <div class="noticia">
+                <img class="img_noticia" src="assets/n1.jpg" alt="Senhor Representante do Grêmio">
+                <h3>Grêmio sobe para a Série A</h3>
+                <p>Um milagre!</p>
+            </div>
+            
+            <div class="noticia">
+                <img class="img_noticia" src="assets/n2.jpg" alt="Senhor Representante do Grêmio">
+                <h3>Grêmio cai para a Série B</h3>
+                <p>Não estou suportando mais!</p>
+            </div>
 
-                    <article class="card" id="card-2">
-                        <h3 class="card-title">Campanha Solidária</h3>
-                        <p class="card-text">
-                            Arrecadação de materiais para apoiar projetos e ações do grêmio.
-                        </p>
-                    </article>
+        </section>
 
-                </div>
-            </section>
-
-            <section class="section" id="posicao">
-                <h2 class="section-title">Laboratório de position</h2>
-                <p class="text">
-                    Nesta parte, vamos construir em sala exemplos de static, relative, absolute, fixed e sticky.
-                </p>
-
-            </section>
-
-            <section class="section" id="avisos">
-                <h2 class="section-title">Avisos</h2>
-                <ul class="list">
-                    <li>Inscrições abertas para comissão de eventos.</li>
-                    <li>Envio de sugestões até sexta-feira.</li>
-                    <li>Reunião com representantes de turma.</li>
-                    <li>Organização de campeonato interno.</li>
-                    <li>Divulgação de vagas de monitoria.</li>
-                    <li>Planejamento de visita técnica.</li>
-                </ul>
-            </section>
-        </main>
-
-        <footer class="footer" id="rodape">
-            <p class="footer-text">Projeto didático • HTML + CSS</p>
-            <p class="footer-text"><a class="link" href="#topo">Voltar ao topo</a></p>
-        </footer>
-    </div>
+    </main>
+    <footer>
+        <p> Todos os direitos reservados ao professor Ícaro. </p>
+    </footer>
 </body>
-
 </html>
