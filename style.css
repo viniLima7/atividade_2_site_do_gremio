@@ -58,19 +58,82 @@ footer {
 .fixed-help{
     position: fixed;
     top: 16px;
-    right: 16px;
+    right: 10px;
     width: 46px;
     height: 46px;
     border-radius: 12px;
-    background-color: #ffffff;
-    color: #0b3d91;
+    background: #facc15;
+    color: #0b0f1a;
     text-decoration: none;
     font-weight: 900;
     text-align: center;
-    line-height: 40px;
-    border: 2px solid #cbd5e1;
+    line-height: 46px;
+    border: 2px solid #0b0f1a;
+
 }
 
-.fixed-help:hover{
-    background-color: #ffffffe3;
+.barra-sticky{
+    position: sticky;
+    top: 0px;
+    background-color: #facc15;
+    color: #0b0f1a;
+    padding: 12px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 4px solid rgb(7, 49, 98);
+}
+
+.posicao{
+    margin: 40px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: rgb(94, 138, 209);
+    text-align: center;
+    color: white;
+}
+
+.pos-box{
+    width: 400px;
+    margin: 20px  auto;
+    padding: 15px;
+    border: 4px solid white;
+    background-color: rgb(72, 155, 243);
+    color: white;
+}
+
+.pos-static{
+    position: static;
+}
+
+.pos-relative{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: #facc15;
+    color: rgb(7, 49, 98);
+
+}
+
+.pai{
+    width: 520px;
+    height: 160px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 4px solid white;
+    background-color: rgb(72, 155, 243);
+    position: relative;
+    color: white;
+    font-weight: bold;
+}
+
+.filho{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    padding: 8px 12px;
+    background-color: yellow;
+    color: rgb(7, 49, 98);
+    border: 3px solid rgb(7, 49, 98);
+    border-radius: 20px;
 }
